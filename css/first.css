@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#diancan {
+    background: url(../imgs/dose-juice-sTPy-oeA3h0-unsplash.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#diancan .diancan1 {
+    position: absolute;
+}
+
+#diancan .firstleft,
+#diancan .firstright {
+    background-color: gold;
+    border: 4px solid sienna;
+    border-radius: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#diancan .firstleft {
+    width: 120px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+#diancan .firstright {
+    float: right;
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+#diancan .firstleft span,
+#diancan .firstright span {
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px 15px;
+    color: sienna;
+}
+
+#diancan .firstmiddle {
+    width: 330px;
+    height: 120px;
+    border: 4px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0px 10px;
+    background-color: gold;
+}
+
+#diancan .firstmiddle .bottom1 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+#diancan .firstmiddle .bottom1:nth-child(2) {
+    color: sienna;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#diancan .firstbottom {
+    width: 330px;
+    height: 240px;
+    border: 4px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0px 10px;
+    background-color: orange;
+    position: absolute;
+    bottom: 50px;
+}
+
+#diancan .firstbottom .bottom1,
+#diancan .firstmiddle .bottom1 {
+    width: 65px;
+    height: 65px;
+    border: 4px solid white;
+    border-radius: 100%;
+    background: linear-gradient(to right, #ffff 50%, #cccccc 50%);
+    margin: 20px 25px;
+    float: left;
+    text-align: center;
+}
+
+#diancan .firstbottom .bottom1 img {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+
+#diancan .firstbottom .bottom1 span {
+    background-color: #3366FF;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    position: absolute;
+    font-size: 14px;
+}
+
+#diancan .firstbottom .list {
+    background: linear-gradient(to right, #3399FF 50%, #3366FF 50%);
+}
+
+#diancan .bottom2 {
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+    border-radius: 100%;
+    background: linear-gradient(to right, #3399FF 50%, #3366FF 50%);
+    text-align: center;
+    position: absolute;
+    z-index: 9;
+    bottom: 30px;
+    right: 30px;
+}
+
+#diancan .bottom2 img {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+
+#diancan .bottom3 {
+    width: 75px;
+    height: 15px;
+    border: 3px solid white;
+    border-radius: 4px;
+    background-color: #3399FF;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    bottom: 21px;
+    right: 30px;
+    font-size: 12px;
+    color: aliceblue;
+}
+
+#diancan .bottom4,
+#diancan .bottom5 {
+    width: 200px;
+    height: 40px;
+    border: 5px solid white;
+    border-radius: 15px;
+    background-color: #cc9999;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 10;
+    font-size: 15px;
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#diancan .bottom5 {
+    display: none;
+}
